@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MaglietteComponent } from './magliette/magliette.component';
 import { ScarpeComponent } from './scarpe/scarpe.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
     MaglietteComponent,
     ScarpeComponent,
     MaglietteComponent,
-    ScarpeComponent
+    ScarpeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
